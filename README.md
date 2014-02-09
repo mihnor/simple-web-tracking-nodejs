@@ -18,8 +18,10 @@ npm install --save geoip-lite;
 
 
 Add the following html snipp to any page in any app that you want to track
-``` <img hidden src='http://myserver:9999/pagename' />  ```
+``` <img hidden src='http://localhost:9999/pagename' />  ```
 
+run with ```node app.js``` to console out results.
+run with ```nohup node track &``` and append results to a file.
 
 
 
