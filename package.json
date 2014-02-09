@@ -1,0 +1,28 @@
+{
+  "name": "simple-web-tracking-nodejs",
+  "version": "0.0.0",
+  "description": "none",
+  "main": "app.js",
+  "dependencies": {
+    "geoip-lite": "~1.1.3",
+    "useragent": "~2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mschmulen/simple-web-tracking-nodejs.git"
+  },
+  "keywords": [
+    "tracking",
+    "analytics"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mschmulen/simple-web-tracking-nodejs/issues"
+  },
+  "homepage": "https://github.com/mschmulen/simple-web-tracking-nodejs"
+}
