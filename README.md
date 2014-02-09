@@ -5,7 +5,8 @@ Inspired by [flexible-user-tracker-in-a-few-lines-of-node](http://run-node.com/f
 
 
 
-mkdir myApp
+npm init
+
 vim app.js
 
 ```
