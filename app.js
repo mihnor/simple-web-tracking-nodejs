@@ -10,10 +10,10 @@ http.createServer( function (r,s) {
 	var geo = geoip.lookup(r.connection.remoteAddress);
 	//get user agent
 	var ua = useragent.parse(r.headers['user-agent']).toString();
-
+		
 	//write it out
 	console.log([d, r.url,r.connection.remoteAddress, geo.ll, geo.city + ',' + geo.country, ua ].join('\t\t'));
 	
 	s.end('');
-		
+	
 }).listen(9999);
